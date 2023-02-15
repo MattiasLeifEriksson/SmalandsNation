@@ -1,0 +1,30 @@
+.containerSlide {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.containerSlide img {
+    height: 300px;
+    width: 300px;
+}
+.slideShowImage{
+width: 300px;
+height: 300px;
+}
+.slideshowWrapper{
+    width: 300px;
+}
+.slideshowWrapper button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+}
+.slideshowWrapper button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

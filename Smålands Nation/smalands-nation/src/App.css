@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+  font-family: 'Noto Sans Display', 'Sans-Serif';
+}
+.navbar{
+  margin-top: 60px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --white: #ececec;
+    --dark: #1C1F33;
+    --grey: #666370;
+    --brown: #9B7874;
+    --red-matte: #D33E43;
+    --red-intense: #FF220C;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+   
+    margin-bottom: 250px;
+    text-align: center;
+    font-family: 'Noto Sans Display', 'Sans-Serif';
+}
+#footerSpan{
+  width: 100%;
+  columns: 3;
+}
+footer{
+  background-color: black;
+  color: white;
+  clear: both;
+ 
+  left: 0px;
+  bottom: 0px;
+  position: fixed;
+  margin-top: 50px;
+  padding-top: 5px;
+  height: 100px;
+  width: 100%;
+  margin-top: 200px;
+  
+}
+footer a{
+  color: white;
+  
+}
+footer a:hover{
+  color: white;
+
+
+}
+#fb-logo{
+  background-color: white;
+  border-radius: 60px;
+}
+#insta-logo{
+  background-color: white;
+  border-radius: 60px;
+}
+#footerSpan{
+  font-size: small;
+  height: 90px;
+}
+#hitract-logo{
+  background-color: white;
+  border-radius: 40px;
+  width: 50px;
+  height: 50px;
+}
+#link-list{
+  float: right;
+  display: flex;
+  margin-right: 200px;
+    flex-direction: row;
+}
+#footer-info{
+  margin-left: 200px;
+    float:left;
+}
+
+#footerSpan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  height: 60px;
+  background-color: #333;
+  color: white;
+}
+
+#footer-info {
+  font-size: 14px;
+}
+
+#link-list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#hitract-logo,
+#insta-logo,
+#fb-logo {
+  height: 40px;
+  width: 40px;
+}
